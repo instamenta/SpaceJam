@@ -18,10 +18,10 @@ camera.position.setZ(30)
 
 renderer.render( scene, camera )
 // Wireframe demo
-//const material = new THREE.MeshBasicMaterial({ color: 0xFF6347, wireframe: true })
+const material = new THREE.MeshBasicMaterial({ color: 0xFF6347, wireframe: true })
 
 const geometry = new THREE.TorusGeometry( 10, 3, 16, 100 )
-const material = new THREE.MeshStandardMaterial({ color: 0xFF6347})
+//const material = new THREE.MeshStandardMaterial({ color: 0xFF6347})
 const torus = new THREE.Mesh( geometry, material )
 
 scene.add(torus)
@@ -53,27 +53,53 @@ function addStar() {
 
 Array(200).fill().forEach(addStar)
 
+
 const spaceTexture = new THREE.TextureLoader().load('space.jpg')
 scene.background = spaceTexture
 
-const jeffTexture = new THREE.TextureLoader().load('jeff.png')
+const jamTexture = new THREE.TextureLoader().load('jam.jpg')
 
-const jeff = new THREE.Mesh(
+const jam = new THREE.Mesh(
   new THREE.BoxGeometry(3,3,3),
-  new THREE.MeshBasicMaterial({ map: jeffTexture })
+  new THREE.MeshBasicMaterial({ map: jamTexture })
 )
 
-scene.add(jeff)
+scene.add(jam)
 
 const moonTexture = new THREE.TextureLoader().load('moon.jpg')
+const normalTexture = new THREE.TextureLoader().load('normal.jpg')
 
 const moon = new THREE.Mesh(
-  new THREE.SphereGeometry(3,3,3),
-  new THREE.MeshBasicMaterial({ map: moonTexture })
+  new THREE.SphereGeometry(3,32,32),
+  new THREE.MeshBasicMaterial({ 
+    map: moonTexture, 
+    normalMap: normalTexture,
+  })
 )
 
 scene.add(moon)
+moon.position.z = 30;
+moon.position.setX(-10);
 
+jam.position.z = -5;
+jam.position.x = 2;
+
+function moveCamera() {
+  const t = document.body.getBoundingClientRect().top;
+  moon.rotation.x += 0.05;
+  moon.rotation.y += 0.075;
+  moon.rotation.z += 0.05;
+
+  jam.rotation.y += 0.01;
+  jam.rotation.z += 0.01;
+
+  camera.position.z = t * -0.01;
+  camera.position.x = t * -0.0002;
+  camera.rotation.y = t * -0.0002;
+}
+
+document.body.onscroll = moveCamera;
+moveCamera();
 
 function animate() {
   requestAnimationFrame( animate )

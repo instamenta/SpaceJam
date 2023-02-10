@@ -80,7 +80,12 @@ header {
   padding: 2rem;
   letter-spacing: 2px;
   margin-bottom: var(--spacing);
-  box-shadow: rgba(29, 17, 53, 0.4) -5px 5px, rgba(12, 22, 79, 0.3) -10px 10px, rgba(186, 30, 104, 0.2) -15px 15px, rgba(86, 67, 253, 0.1) -20px 20px, rgba(118, 73, 254, 0.05) -25px 25px;
+  box-shadow: 
+  rgba(29, 17, 53, 0.4) -5px 5px,
+   rgba(12, 22, 79, 0.3) -10px 10px,
+    rgba(186, 30, 104, 0.2) -15px 15px,
+     rgba(86, 67, 253, 0.1) -20px 20px,
+      rgba(118, 73, 254, 0.05) -25px 25px;
 }
 
 section {
@@ -90,7 +95,12 @@ section {
 
   line-height: 1.5;
   margin-bottom: var(--spacing);
-  box-shadow: rgba(118, 73, 254, 0.4) -5px 5px, rgba(118, 73, 254, 0.3) -10px 10px, rgba(118, 73, 254, 0.2) -15px 15px, rgba(118, 73, 254, 0.1) -20px 20px, rgba(118, 73, 254, 0.05) -25px 25px;
+  box-shadow: 
+  rgba(118, 73, 254, 0.4) -5px 5px,
+   rgba(118, 73, 254, 0.3) -10px 10px,
+    rgba(118, 73, 254, 0.2) -15px 15px,
+     rgba(118, 73, 254, 0.1) -20px 20px,
+      rgba(118, 73, 254, 0.05) -25px 25px;
 }
 
 blockquote {
@@ -122,7 +132,12 @@ blockquote p {
 }
 section.left {
   grid-column: 6 / 12;
-  box-shadow: rgba(118, 73, 254, 0.4) 5px 5px, rgba(118, 73, 254, 0.3) 10px 10px, rgba(118, 73, 254, 0.2) 15px 15px, rgba(118, 73, 254, 0.1) 20px 20px, rgba(118, 73, 254, 0.05) 25px 25px;
+  box-shadow: 
+  rgba(118, 73, 254, 0.4) 5px 5px,
+   rgba(118, 73, 254, 0.3) 10px 10px,
+    rgba(118, 73, 254, 0.2) 15px 15px,
+     rgba(118, 73, 254, 0.1) 20px 20px,
+      rgba(118, 73, 254, 0.05) 25px 25px;
 }
 ul {
   list-style-type: square;

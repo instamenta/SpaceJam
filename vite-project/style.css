@@ -1,5 +1,6 @@
 @import url("https://use.typekit.net/jmk3xov.css");
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Teko:wght@300;400;500;600;700&display=swap');
+
 canvas {
   position: fixed;
   top: 0;
@@ -25,17 +26,38 @@ main {
   width: 100%;
   margin: 0px auto;
   padding: 120px 0px;
-  
+
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
-h2, h3, blockquote {
+blockquote {
   font-family: 'Orbitron', sans-serif;
   font-weight: 500;
 
-  font-style: normal;
 }
+
+h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 2.5px;
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 2.3rem;
+  letter-spacing: 2px;
+}
+
 h1 {
   font-family: 'Orbitron', sans-serif;
   font-size: 3rem;
@@ -51,38 +73,58 @@ canvas {
 
 
 
-  header {
-    background: var(--dark-bg);
-    grid-column: 2 / span 5;
-    font-size: 2.5rem;
-    padding: 2rem;
-    margin-bottom: var(--spacing);
-  }
+header {
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  font-size: 2.6rem;
+  padding: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: var(--spacing);
+  box-shadow: rgba(29, 17, 53, 0.4) -5px 5px, rgba(12, 22, 79, 0.3) -10px 10px, rgba(186, 30, 104, 0.2) -15px 15px, rgba(86, 67, 253, 0.1) -20px 20px, rgba(118, 73, 254, 0.05) -25px 25px;
+}
 
-  section {
-    grid-column: 2 / 8;
-    padding: 1rem;
-    background: var(--dark-bg);
-    font-size: 1.25rem;
-    line-height: 1.5;
-    margin-bottom: var(--spacing);
-  }
+section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
 
-  blockquote {
-    margin: 0;
-    padding: 0;
-    grid-column: 2 / span 9;
-    margin-bottom: var(--spacing);
-  }
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+  box-shadow: rgba(118, 73, 254, 0.4) -5px 5px, rgba(118, 73, 254, 0.3) -10px 10px, rgba(118, 73, 254, 0.2) -15px 15px, rgba(118, 73, 254, 0.1) -20px 20px, rgba(118, 73, 254, 0.05) -25px 25px;
+}
 
-  blockquote p {
-    color: black;
-    background-color: white;
-    font-size: 4rem;
-    display: inline;
-    line-height: 1;
-  }
+blockquote {
+  margin: 0;
+  padding: 3px 10px;
+  grid-column: 2 / span 9;
+  margin-bottom: var(--spacing);
+  
+}
 
-  .left {
-    grid-column: 6 / 12;
-  }
+blockquote p {
+  color: black;
+  background-color: white;
+  font-size: 3.5rem;
+  display: inline;
+  line-height: 1 + 5rem;
+}
+
+.courses {
+  columns: 2;
+}
+
+.skills {
+  columns: 3;
+}
+
+.left {
+  grid-column: 6 / 12;
+}
+section.left {
+  grid-column: 6 / 12;
+  box-shadow: rgba(118, 73, 254, 0.4) 5px 5px, rgba(118, 73, 254, 0.3) 10px 10px, rgba(118, 73, 254, 0.2) 15px 15px, rgba(118, 73, 254, 0.1) 20px 20px, rgba(118, 73, 254, 0.05) 25px 25px;
+}
+ul {
+  list-style-type: square;
+  font-size: 1.8rem
+}

@@ -57,14 +57,14 @@ Array(200).fill().forEach(addStar)
 const spaceTexture = new THREE.TextureLoader().load('space.jpg')
 scene.background = spaceTexture
 
-const jamTexture = new THREE.TextureLoader().load('jam.jpg')
+// const jamTexture = new THREE.TextureLoader().load('jam.jpg')
 
-const jam = new THREE.Mesh(
-  new THREE.BoxGeometry(3,3,3),
-  new THREE.MeshBasicMaterial({ map: jamTexture })
-)
+// const jam = new THREE.Mesh(
+  // new THREE.BoxGeometry(3,3,3),
+  // new THREE.MeshBasicMaterial({ map: jamTexture })
+// )
 
-scene.add(jam)
+// scene.add(jam)
 
 const moonTexture = new THREE.TextureLoader().load('moon.jpg')
 const normalTexture = new THREE.TextureLoader().load('normal.jpg')
@@ -81,8 +81,8 @@ scene.add(moon)
 moon.position.z = 30;
 moon.position.setX(-10);
 
-jam.position.z = -5;
-jam.position.x = 2;
+// jam.position.z = -5;
+// jam.position.x = 2;
 
 function moveCamera() {
   const t = document.body.getBoundingClientRect().top;
@@ -90,8 +90,8 @@ function moveCamera() {
   moon.rotation.y += 0.075;
   moon.rotation.z += 0.05;
 
-  jam.rotation.y += 0.01;
-  jam.rotation.z += 0.01;
+  // jam.rotation.y += 0.01;
+  // jam.rotation.z += 0.01;
 
   camera.position.z = t * -0.01;
   camera.position.x = t * -0.0002;

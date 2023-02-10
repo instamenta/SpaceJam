@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/jmk3xov.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Teko:wght@300;400;500;600;700&display=swap');
 canvas {
   position: fixed;
   top: 0;
@@ -10,8 +10,8 @@ canvas {
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 350px;
+  font-family: 'Orbitron', sans-serif;
 
-  font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -30,10 +30,17 @@ main {
   grid-template-columns: repeat(12, 1fr);
 }
 
-h1, h2, h3, blockquote {
-  font-family: elevon, sans-serif;
-  font-weight: 700;
+h2, h3, blockquote {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+
   font-style: normal;
+}
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+
 }
 
 canvas {

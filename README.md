@@ -5,7 +5,14 @@ The Entire Webpage is based on the data includede in [My CV](https://github.com/
 
 ## Get started
 
+```diff
+- text in red
++ text in green
 ! >npm install
+# text in gray
+@@ text in purple (and bold)@@
+```
+
 
 ### Run in development
 

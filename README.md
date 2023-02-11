@@ -10,7 +10,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
  
 ### Built With
 
-* [![React][React.js]][Three.js-url]
+* [![Three.js][Three.js]][Three.js-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]

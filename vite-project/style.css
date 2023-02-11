@@ -93,7 +93,7 @@ section {
   padding: 1rem;
   background: var(--dark-bg);
 
-  line-height: 1.5;
+  line-height: 1.2;
   margin-bottom: var(--spacing);
   box-shadow: 
   rgba(118, 73, 254, 0.4) -5px 5px,
@@ -121,6 +121,7 @@ blockquote p {
 
 .courses {
   columns: 2;
+  line-height: 1.2;
 }
 
 .skills {

@@ -1,7 +1,7 @@
 # SpaceJam
 Simple 3D scrolling website made with Vanilla JS and three.js
 
-The Entire Webpage is based on the data includede in [My CV](https://github.com/instamenta/SpaceJam/files/10712348/JanCV.pdf), if after checking the website you are interested you can find my CV also - [link](https://github.com/instamenta/SpaceJam/files/10712348/JanCV.pdf)!
+The Entire Webpage is based on the data includede in [My CV](https://github.com/instamenta/SpaceJam/files/10712348/JanCV.pdf), if after checking the website you are interested you can find my CV also - [link](https://github.com/instamenta/SpaceJam/files/10712348/JanCV.pdf).
 
 ## Get started
 

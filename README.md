@@ -44,7 +44,8 @@ The Entire Webpage is based on the data includede in [My CV](https://github.com/
 
 ![Part5](https://user-images.githubusercontent.com/98179343/218232521-a837abb2-8327-4d66-b82e-045c22ac2986.PNG)
 
-###Find
+##Find
+
 ```
 The attractive 3D parallax scrolling website SpaceJam made by me
 is a beautiful animated space galaxy – in the centre of the page. 
@@ -54,7 +55,8 @@ collection and recent mostly finished projects.
 Perhaps your favourite touch is that at one point space revolves
 in front of you. It's a very smooth presentation.
 ```
-###Scroll
+##Scroll
+
 ```
 Parallax scrolling websites continue to be a popular trend. 
 It was once recommended that sites include as much information
@@ -63,7 +65,8 @@ scroll, but parallax scrolling introduced a way of allowing
 designers to break away from that by making the act of scrolling 
 itself engaging for the user. 
 ```
-###Parallax
+##Parallax
+
 ```
 The Parallax scrolling technique involves designing the background 
 of a website layout to move at a slower rate than the foreground 

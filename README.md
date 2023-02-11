@@ -6,9 +6,7 @@ Simple 3D scrolling website made with Vanilla JS and three.js@@
 The Entire Webpage is based on the data includede in [My CV](https://github.com/instamenta/SpaceJam/files/10712348/JanCV.pdf), if after checking the website you are interested you can find my CV also - [link](https://github.com/instamenta/SpaceJam/files/10712348/JanCV.pdf).
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
+Three.js – JavaScript 3D Library
 * [![Three.JS][threejs.org]][Three.JS-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]

@@ -7,19 +7,10 @@ The Entire Webpage is based on the data includede in [My CV](https://github.com/
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-* 
+ 
 ### Built With
 
-* [![React][React.js]][React-url]
+* [![React][React.js]][Three.js-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
@@ -30,15 +21,10 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## Get started
 
 ```diff
-
-
 ! >npm install
-
 ```
 
 ### Run in development
-
-
 
 ```diff
 - npm run development
@@ -134,3 +120,5 @@ distinctive and memorable websites.
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+[Three.js-url]: https://threejs.org

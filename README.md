@@ -88,4 +88,4 @@ distinctive and memorable websites.
 
 Jan Milenkov - [https://github.com/instamenta](https://github.com/instamenta) - instamenta@abv.bg
 
-Project Link - [https://github.com/instamenta/NFT-Social-Trading-System](https://github.com/instamenta/NFT-Social-Trading-System)
+Project Link - [https://github.com/instamenta/SpaceJam](https://github.com/instamenta/SpaceJam)

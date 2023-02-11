@@ -23,29 +23,28 @@ The Entire Webpage is based on the data includede in [My CV](https://github.com/
 ```
 ## Demo
 
-###![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Intro`
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Intro`
 
 
 ![Part1](https://user-images.githubusercontent.com/98179343/218232522-5caf385b-1752-44b8-8552-96d50317b1ca.PNG)
 
-###![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Education`
+![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Education`
 
 ![Part2](https://user-images.githubusercontent.com/98179343/218232525-a9b92865-0e34-471c-afe9-90c218bdcf8d.PNG)
 
-###![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Personal Projects`
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Personal Projects`
 
 ![Part3](https://user-images.githubusercontent.com/98179343/218232527-6457d36e-f69a-4e93-b422-4993f3296e4e.PNG)
 
-###![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Skills`
+![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Skills`
 
 ![Part4](https://user-images.githubusercontent.com/98179343/218232519-1d61da58-555e-4a22-a9e8-d74b462e61b6.PNG)
 
-###![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Outro`
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Outro`
 
 ![Part5](https://user-images.githubusercontent.com/98179343/218232521-a837abb2-8327-4d66-b82e-045c22ac2986.PNG)
 
-
-
+###Find
 ```
 The attractive 3D parallax scrolling website SpaceJam made by me
 is a beautiful animated space galaxy – in the centre of the page. 
@@ -55,7 +54,7 @@ collection and recent mostly finished projects.
 Perhaps your favourite touch is that at one point space revolves
 in front of you. It's a very smooth presentation.
 ```
-
+###Scroll
 ```
 Parallax scrolling websites continue to be a popular trend. 
 It was once recommended that sites include as much information
@@ -64,6 +63,7 @@ scroll, but parallax scrolling introduced a way of allowing
 designers to break away from that by making the act of scrolling 
 itself engaging for the user. 
 ```
+###Parallax
 ```
 The Parallax scrolling technique involves designing the background 
 of a website layout to move at a slower rate than the foreground 
